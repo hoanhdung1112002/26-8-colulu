@@ -75,8 +75,13 @@
               display: block;
           }
           p {
+            font-size: 4.103vw;
+            line-height: 1.6;
+            padding: 2.564vw 0;
               span {
                   margin-left: 0;
+                  font-size: 3.59vw;
+                  line-height: 1.6;
               }
           }
       }
@@ -199,13 +204,16 @@
           > img {
               width: 10.256vw;
           }
+          br {
+            display: none;
+          }
           h3 {
-              font-size: 6.667vw;
+              font-size: 5.128vw;
               line-height: 1.6;
               margin-bottom: 4.103vw;
           }
           p {
-              font-size: 3.59vw;
+              font-size: 3.333vw;
               line-height: 1.6;
               margin-bottom: 5.128vw;
           }
@@ -564,16 +572,19 @@
           margin: 0 0 5.128vw 0;
           text-align: center;
           h2 {
-              font-size: 4.178vw;
+              font-size: 5.128vw;
               margin-bottom: 4.103vw;
               line-height: 1.5;
           }
           p {
-              font-size: 3.5vw;
+              font-size: 3.333vw;
               line-height: 1.5;
           }
       }
       &-main {
+        &.mr-44 {
+            margin-right: 0;
+        }
           padding: 0;
           .product {
               gap: 40px 0;
@@ -602,16 +613,22 @@
                   }
                   h6 {
                       font-size: 4.615vw;
+                      margin-bottom: 2.5vw;
                       span {
                           font-size: 3.59vw;
                       }
                   }
                   p {
                       font-size: 3.077vw;
+                      margin-bottom: 3vw;
                   }
               }
+              &-status {
+                font-size: 2.5vw;
+                padding: 0.5vw 3vw;
+              }
               &-price {
-                  margin-bottom: 5.128vw;
+                  margin-bottom: 4.103vw;
                   font-size: 4.103vw;
                   strong {
                       font-size: 6.667vw;
@@ -620,7 +637,7 @@
               &-rating {
                   align-items: center;
                   img {
-                      width: 4.103vw;
+                      width: 3.59vw;
                   }
                   a {
                       font-size: 4.103vw;
@@ -628,9 +645,6 @@
                       text-decoration: none;
                   }
               }
-          }
-          .product-status {
-              font-size: 2.564vw;
           }
           .product-btn {
               a.btn-seemore {
@@ -656,7 +670,7 @@
           }
       }
       &-content-end {
-          margin-top: 5.128vw;
+          margin-top: 4.103vw;
           span {
               font-size: 3.5vw;
               margin-bottom: 4.103vw;
@@ -992,7 +1006,7 @@
           align-items: center;
           justify-content: center;
       }
-      span {
+      a {
           color: #000;
           font-family: "Noto Sans JP";
           font-size: 32px;
@@ -1000,6 +1014,7 @@
           font-weight: 700;
           line-height: 64px;
           letter-spacing: 1.6px;
+          text-decoration: none;
       }
   }
 }
@@ -1061,8 +1076,9 @@
           margin-bottom: 10.256vw;
       }
       &-top {
-          img {
-              width: 10.256vw;
+          > img {
+              width: 8vw;
+              margin-bottom: 4.103vw;
           }
           .redirect {
               font-size: 3.59vw;
@@ -1075,7 +1091,7 @@
       }
       &-content {
           ul {
-              gap: 40px 0;
+              gap: 7.692vw 0;
           }
       }
       &-item-handle {
@@ -1089,7 +1105,8 @@
       &-item {
           text-align: center;
           p {
-              font-size: 3.5vw;
+              font-size: 3.33vw;
+              line-height: 1.6;
           }
           img {
               margin-bottom: 5.128vw;
@@ -1122,6 +1139,10 @@
           padding: 0 5.128vw;;
       }
       &-top {
+        > img {
+            width: 8vw;
+            margin-bottom: 4.103vw;
+        }
           .redirect {
               font-size: 3.59vw;
               height: auto;
@@ -1137,11 +1158,13 @@
           padding-left: 0;
           margin-bottom: 0;
           a span {
-              font-size: 3.59vw;
+              font-size: 3.077vw;
               margin-bottom: 3.077vw;
+              line-height: 1.6;
           }
           h3 {
               font-size: 5.128vw;
+              line-height: 1.6;
           }
       }
   }
@@ -1153,7 +1176,7 @@
       &-top {
           padding-bottom: 0;
           img {
-              width: 20.513vw;
+              width: 16vw;
               margin-bottom: 4.103vw;
           }
       }
@@ -1170,11 +1193,13 @@
               }
               a {
                   width: 100%;
+                  line-height: 1.5;
+                  max-height: 30px;
                   span {
-                      font-size: 3.59vw;
+                      font-size: 3.077vw;
                   }
                   img {
-                      width: 16px;
+                      width: 3.59vw;
                   }
               }
           }
@@ -1184,10 +1209,28 @@
           .rectangle, .ssn-campaign {
               height: 15.385vw;
           }
-          span {
+          a {
               font-size: 3.59vw;
           }
       }
+  }
+  .future {
+    &-text {
+        width: 100%;
+        top: 26%;
+        padding: 0 5.128vw;
+        br {
+            display: none;
+        }
+        h3 {
+            font-size: 4.103vw;
+            line-height: 1.6;
+        }
+        p {
+            font-size: 2.564vw;
+            line-height: 1.6;
+        }
+    }
   }
 }
 
@@ -1335,6 +1378,7 @@
   .back-to-top {
   width: 8vw;
   height: 8vw;
+  top: 90%;
   img {
       width: 2.5vw;
   }

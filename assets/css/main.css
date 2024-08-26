@@ -542,7 +542,7 @@ main {
     width: 6vw;
   }
 }
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   #header {
     height: 80px;
     margin-bottom: 2.089vw;
@@ -967,8 +967,15 @@ main {
   .hero-text span {
     display: block;
   }
+  .hero-text p {
+    font-size: 4.103vw;
+    line-height: 1.6;
+    padding: 2.564vw 0;
+  }
   .hero-text p span {
     margin-left: 0;
+    font-size: 3.59vw;
+    line-height: 1.6;
   }
 }
 @media (min-width: 767px) and (max-width: 991px) {
@@ -1083,13 +1090,16 @@ main {
   .intro-content > img {
     width: 10.256vw;
   }
+  .intro-content br {
+    display: none;
+  }
   .intro-content h3 {
-    font-size: 6.667vw;
+    font-size: 5.128vw;
     line-height: 1.6;
     margin-bottom: 4.103vw;
   }
   .intro-content p {
-    font-size: 3.59vw;
+    font-size: 3.333vw;
     line-height: 1.6;
     margin-bottom: 5.128vw;
   }
@@ -1422,16 +1432,19 @@ main {
     text-align: center;
   }
   .shop-top h2 {
-    font-size: 4.178vw;
+    font-size: 5.128vw;
     margin-bottom: 4.103vw;
     line-height: 1.5;
   }
   .shop-top p {
-    font-size: 3.5vw;
+    font-size: 3.333vw;
     line-height: 1.5;
   }
   .shop-main {
     padding: 0;
+  }
+  .shop-main.mr-44 {
+    margin-right: 0;
   }
   .shop-main .product {
     gap: 40px 0;
@@ -1458,15 +1471,21 @@ main {
   }
   .shop-main .product-info h6 {
     font-size: 4.615vw;
+    margin-bottom: 2.5vw;
   }
   .shop-main .product-info h6 span {
     font-size: 3.59vw;
   }
   .shop-main .product-info p {
     font-size: 3.077vw;
+    margin-bottom: 3vw;
+  }
+  .shop-main .product-status {
+    font-size: 2.5vw;
+    padding: 0.5vw 3vw;
   }
   .shop-main .product-price {
-    margin-bottom: 5.128vw;
+    margin-bottom: 4.103vw;
     font-size: 4.103vw;
   }
   .shop-main .product-price strong {
@@ -1476,15 +1495,12 @@ main {
     align-items: center;
   }
   .shop-main .product-rating img {
-    width: 4.103vw;
+    width: 3.59vw;
   }
   .shop-main .product-rating a {
     font-size: 4.103vw;
     line-height: 1.5;
     text-decoration: none;
-  }
-  .shop-main .product-status {
-    font-size: 2.564vw;
   }
   .shop-main .product-btn a.btn-seemore {
     font-size: 3.59vw;
@@ -1507,7 +1523,7 @@ main {
     width: 16px;
   }
   .shop-content-end {
-    margin-top: 5.128vw;
+    margin-top: 4.103vw;
   }
   .shop-content-end span {
     font-size: 3.5vw;
@@ -1810,7 +1826,7 @@ main {
   align-items: center;
   justify-content: center;
 }
-.media-ssn-group span {
+.media-ssn-group a {
   color: #000;
   font-family: "Noto Sans JP";
   font-size: 32px;
@@ -1818,6 +1834,7 @@ main {
   font-weight: 700;
   line-height: 64px;
   letter-spacing: 1.6px;
+  text-decoration: none;
 }
 
 .future-container {
@@ -1870,8 +1887,9 @@ main {
     margin-left: 0;
     margin-bottom: 10.256vw;
   }
-  .feature-top img {
-    width: 10.256vw;
+  .feature-top > img {
+    width: 8vw;
+    margin-bottom: 4.103vw;
   }
   .feature-top .redirect {
     font-size: 3.59vw;
@@ -1882,7 +1900,7 @@ main {
     width: 16px;
   }
   .feature-content ul {
-    gap: 40px 0;
+    gap: 7.692vw 0;
   }
   .feature-item-handle {
     justify-content: center;
@@ -1896,7 +1914,8 @@ main {
     text-align: center;
   }
   .feature-item p {
-    font-size: 3.5vw;
+    font-size: 3.33vw;
+    line-height: 1.6;
   }
   .feature-item img {
     margin-bottom: 5.128vw;
@@ -1921,6 +1940,10 @@ main {
     margin-bottom: 10.256vw;
     padding: 0 5.128vw;
   }
+  .news-top > img {
+    width: 8vw;
+    margin-bottom: 4.103vw;
+  }
   .news-top .redirect {
     font-size: 3.59vw;
     height: auto;
@@ -1936,11 +1959,13 @@ main {
     margin-bottom: 0;
   }
   .news-item a span {
-    font-size: 3.59vw;
+    font-size: 3.077vw;
     margin-bottom: 3.077vw;
+    line-height: 1.6;
   }
   .news-item h3 {
     font-size: 5.128vw;
+    line-height: 1.6;
   }
   .media-container {
     margin-bottom: 10.256vw;
@@ -1950,7 +1975,7 @@ main {
     padding-bottom: 0;
   }
   .media-top img {
-    width: 20.513vw;
+    width: 16vw;
     margin-bottom: 4.103vw;
   }
   .media-social {
@@ -1966,12 +1991,14 @@ main {
   }
   .media-social ul a {
     width: 100%;
+    line-height: 1.5;
+    max-height: 30px;
   }
   .media-social ul a span {
-    font-size: 3.59vw;
+    font-size: 3.077vw;
   }
   .media-social ul a img {
-    width: 16px;
+    width: 3.59vw;
   }
   .media-ssn-group {
     gap: 4.103vw 0;
@@ -1979,8 +2006,24 @@ main {
   .media-ssn-group .rectangle, .media-ssn-group .ssn-campaign {
     height: 15.385vw;
   }
-  .media-ssn-group span {
+  .media-ssn-group a {
     font-size: 3.59vw;
+  }
+  .future-text {
+    width: 100%;
+    top: 26%;
+    padding: 0 5.128vw;
+  }
+  .future-text br {
+    display: none;
+  }
+  .future-text h3 {
+    font-size: 4.103vw;
+    line-height: 1.6;
+  }
+  .future-text p {
+    font-size: 2.564vw;
+    line-height: 1.6;
   }
 }
 @media (min-width: 767px) and (max-width: 991px) {
@@ -2097,6 +2140,7 @@ main {
   .back-to-top {
     width: 8vw;
     height: 8vw;
+    top: 90%;
   }
   .back-to-top img {
     width: 2.5vw;
