@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Noto+Sans+JP:wght@100..900&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #FFFDFB 30.44%, #F4EBDF 99.99%);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    color: #797271;
+    text-align: center;
+    font-family: 'Tsukushi A Round Gothic';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 18.5px 62.5px;
+    border-radius: 40px;
+    text-decoration: none;
+    border: 2px solid  #797271;
+}
+.breadcrumb {
+    margin-bottom: 16px;
+    li {
+        display: inline;
+        color: #797271;
+        font-family: "Tsukushi A Round Gothic";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 175%;
+        letter-spacing: 0.48px;
+        & + li::before {
+            padding: 8px;
+            color: inherit;
+            content: "/";
+        }
+        a {
+            color: #797271;
+            font-family: "Tsukushi A Round Gothic";
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 63px;
+            text-decoration: none;
+        }
+    }
+}
+.redirect {
+    display: block;
+    color: #797271;
+    font-family: 'Tsukushi A Round Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: right;
+    padding: 34.5px 0 34.5px 32px;
+    height: 104px;
+    letter-spacing: 0.96px;
+}
+a {
+    cursor: pointer;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+.bg-green {
+    background: #00C300;
+}
+.bg-black {
+    background: linear-gradient(90deg, #000 17.57%, #474646 102.02%, #000 102.02%);
+}
+.bg-pink {
+    background: linear-gradient(97deg, #E915CA 7.14%, #FD9138 100%);
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+.mr-35 {
+    margin-right: 35px;
+}
+.mr-0 {
+    margin-right: 0 !important;
+}
+.ml-90 {
+    margin-left: 90px;
+}
+.shop-main.mr-44 {
+    margin-right: 44px;
+}
+.ml-40 {
+    margin-left: 40px;
+}
+.g-80 {
+    gap: 0 80px;
+}
+.g-96 {
+    gap: 0 96px;
+}
+.news-container .redirect {
+    margin-bottom: 16px;
+}
+
+@media (max-width: 767px){
+    .breadcrumb {
+        li {
+            font-size: 3.077vw;
+            line-height: 1.5;
+            a {
+                font-size: 3.59vw;
+                line-height: 1.5;
+            }
+        }
+        
+    }
+}
+
+
+
