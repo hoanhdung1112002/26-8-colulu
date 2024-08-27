@@ -49,10 +49,12 @@
     bottom: 0;
     background-color: #fff;
     display: block;
+    opacity: 0;
     transform: translateX(100%);
     transition: all 0.3s linear;
     z-index: 10;
     &.show {
+        opacity: 1;
         transform: translateX(0);
     }
     ul {
@@ -159,7 +161,7 @@
 }
 
 //tablet
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 767px) and (max-width: 991px){
   #header {
     height: 80px;
     margin-bottom: 2.089vw;
@@ -236,6 +238,7 @@
 
 @media (min-width: 992px) and (max-width: 1199px){
   #header {
+    margin-bottom: 20px;
     a.logo {
       padding-left: 20px;
     }
