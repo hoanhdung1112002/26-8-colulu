@@ -20,7 +20,6 @@ jQuery(function($) {
 	});
 
 	//scroll top
-	//scroll top
 	var $backToTop = $(".back-to-top");
 	$backToTop.hide();
 
@@ -38,7 +37,6 @@ jQuery(function($) {
 	});
 
 	//slick slider
-	
 	$('.hero-bg').slick({
 		infinite: true,
 		slidesToShow: 1,
